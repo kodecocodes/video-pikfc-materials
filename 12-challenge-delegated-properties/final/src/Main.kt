@@ -12,7 +12,7 @@ Challenge 1:
 class IceCream {
   var name: String = "Vanilla"
   val ingredients: ArrayList<String> by lazy {
-    arrayListOf<String>()
+    arrayListOf()
   }
 }
 
@@ -31,7 +31,8 @@ below with delegated property observer functionality:
 class SpaceCar(
     val make: String,
     val color: String,
-    val battery: SpaceBattery = SpaceBattery())
+    val battery: SpaceBattery = SpaceBattery()
+)
 
 class SpaceBattery {
   var lowCharge = true
@@ -46,7 +47,7 @@ class SpaceBattery {
 fun main() {
   // ~~~Challenge 1~~~
   // Make a new instance of IceCream
-  var spaceIceCream = IceCream()
+  val spaceIceCream = IceCream()
 
   // Give it a name other than the default
   spaceIceCream.name = "Comets & Cream"
@@ -63,7 +64,7 @@ fun main() {
   spceTrk.battery.level = 1.0
   println(spceTrk.battery.lowCharge)
 
-  // Fly around for awhile.
+  // Fly around for a while.
   spceTrk.battery.level = 0.05
   println(spceTrk.battery.lowCharge)
 

@@ -4,7 +4,7 @@
 fun main() {
 
 // --------------------------------------
-  var prices = arrayOf(1.50, 10.00, 4.99, 2.30, 8.19)
+  val prices = arrayOf(1.50, 10.00, 4.99, 2.30, 8.19)
 // --------------------------------------
 
 // `forEach` - Loops over a collection and performs an operation
