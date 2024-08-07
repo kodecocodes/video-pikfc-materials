@@ -10,5 +10,5 @@ Each edition has its own branch, named `versions/[VERSION]`. The default branch 
 
 | Branch                                                                                  | Version | Release Date |
 | --------------------------------------------------------------------------------------- |:-------:|:------------:|
-| [versions/1.0](https://github.com/kodecocodes/video-pik2-materials/tree/versions/1.0) | 1.0     | 2020-04-21   |
-| [versions/1.1](https://github.com/kodecocodes/video-pik2-materials/tree/versions/1.1) | 1.1     | 2023-04-13   |
+| [versions/1.0](https://github.com/kodecocodes/video-pikfc-materials/tree/versions/1.0) | 1.0     | 2020-04-21   |
+| [versions/1.1](https://github.com/kodecocodes/video-pikfc-materials/tree/versions/1.1) | 1.1     | 2023-04-13   |
